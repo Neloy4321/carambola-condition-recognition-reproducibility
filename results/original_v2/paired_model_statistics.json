@@ -1,0 +1,13 @@
+{
+  "reference_model": "initial_cnn_s42",
+  "selected": "SELECTED_CALIBRATED",
+  "selected_better_only": 85,
+  "reference_better_only": 14,
+  "exact_mcnemar_p": 1.427991634717386e-13,
+  "delta_macro_f1": 0.18782546265641864,
+  "delta_macro_f1_bootstrap_CI95": [
+    0.14036412089640807,
+    0.23626677900419538
+  ],
+  "warning": "Image-level CI/p-values may be optimistic if captures are grouped/related"
+}

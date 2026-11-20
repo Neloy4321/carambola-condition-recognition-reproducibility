@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "run_id": "carambola_captureproxy_resnet50v2_s42_20261117",
+  "time_utc": "2026-11-17T08:17:36.338333+00:00",
+  "chosen_by_validation_loss": "resnet50v2_s42_finetune.weights.h5",
+  "validation_metrics": {
+    "dataset_split": "validation",
+    "n": 378,
+    "n_proxy_groups": 17,
+    "accuracy": 0.8492063492063492,
+    "macro_f1": 0.8431835196541079,
+    "balanced_accuracy": 0.8467140322944157,
+    "source_manifest_sha256": "4f6f17ef1b98753541f34c9da1d6f640fc33c5e5c7905b42306705723c135fc1",
+    "evaluation_status": "EXPLORATORY_POST_HOC_PROXY_SPLIT_NOT_AN_INDEPENDENT_TEST"
+  },
+  "test_metrics_EXPLORATORY": {
+    "dataset_split": "test",
+    "n": 394,
+    "n_proxy_groups": 10,
+    "accuracy": 0.8096446700507615,
+    "macro_f1": 0.7946639112285325,
+    "balanced_accuracy": 0.7985858839877963,
+    "source_manifest_sha256": "4f6f17ef1b98753541f34c9da1d6f640fc33c5e5c7905b42306705723c135fc1",
+    "evaluation_status": "EXPLORATORY_POST_HOC_PROXY_SPLIT_NOT_AN_INDEPENDENT_TEST"
+  },
+  "publication_caution": "Test groups are unverified capture proxies; results are not independent/confirmatory."
+}

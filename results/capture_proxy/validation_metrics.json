@@ -1,0 +1,10 @@
+{
+  "dataset_split": "validation",
+  "n": 378,
+  "n_proxy_groups": 17,
+  "accuracy": 0.8492063492063492,
+  "macro_f1": 0.8431835196541079,
+  "balanced_accuracy": 0.8467140322944157,
+  "source_manifest_sha256": "4f6f17ef1b98753541f34c9da1d6f640fc33c5e5c7905b42306705723c135fc1",
+  "evaluation_status": "EXPLORATORY_POST_HOC_PROXY_SPLIT_NOT_AN_INDEPENDENT_TEST"
+}

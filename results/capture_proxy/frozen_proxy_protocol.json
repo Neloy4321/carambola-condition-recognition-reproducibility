@@ -1,0 +1,107 @@
+{
+  "protocol_name": "CAPTURE_PROXY_SENSITIVITY_20261117",
+  "status": "PROVISIONAL__NOT_INDEPENDENT__NOT_PUBLICATION_FINAL",
+  "purpose": "Exploratory capture-proxy regrouping sensitivity analysis, not a fresh blinded test.",
+  "generated_at_utc": "2026-11-17",
+  "manifest_filename": "Carambola_CaptureProxy_Sensitivity_Manifest_20261117.csv",
+  "manifest_sha256": "4f6f17ef1b98753541f34c9da1d6f640fc33c5e5c7905b42306705723c135fc1",
+  "total_unique_images": 2583,
+  "n_capture_proxy_groups": 63,
+  "class_split_table": [
+    {
+      "label": "Healthy",
+      "n_images": 453,
+      "n_groups": 7,
+      "target_train": 317,
+      "target_validation": 68,
+      "target_test": 68,
+      "train": 320,
+      "validation": 62,
+      "test": 71,
+      "solver_status": 0
+    },
+    {
+      "label": "Healthy Fruits",
+      "n_images": 443,
+      "n_groups": 10,
+      "target_train": 310,
+      "target_validation": 66,
+      "target_test": 67,
+      "train": 310,
+      "validation": 66,
+      "test": 67,
+      "solver_status": 0
+    },
+    {
+      "label": "Insect Pest",
+      "n_images": 450,
+      "n_groups": 17,
+      "target_train": 315,
+      "target_validation": 68,
+      "target_test": 67,
+      "train": 315,
+      "validation": 68,
+      "test": 67,
+      "solver_status": 0
+    },
+    {
+      "label": "Iron Deficiency",
+      "n_images": 386,
+      "n_groups": 13,
+      "target_train": 270,
+      "target_validation": 58,
+      "target_test": 58,
+      "train": 270,
+      "validation": 58,
+      "test": 58,
+      "solver_status": 0
+    },
+    {
+      "label": "Old",
+      "n_images": 422,
+      "n_groups": 7,
+      "target_train": 295,
+      "target_validation": 63,
+      "target_test": 64,
+      "train": 297,
+      "validation": 60,
+      "test": 65,
+      "solver_status": 0
+    },
+    {
+      "label": "Unhealthy Fruits",
+      "n_images": 429,
+      "n_groups": 9,
+      "target_train": 300,
+      "target_validation": 64,
+      "target_test": 65,
+      "train": 299,
+      "validation": 64,
+      "test": 66,
+      "solver_status": 0
+    }
+  ],
+  "split_image_counts": {
+    "train": 1811,
+    "test": 394,
+    "validation": 378
+  },
+  "verified_orchard_independence": false,
+  "verification_limitations": [
+    "Filename-burst proxies can split the same tree across groups and also merge distinct captures.",
+    "2 near-identical pairs and 8 uncertain pairs conservatively grouped, but 4212 candidates remain without individual visual review.",
+    "Prior locked-test images and predictions have already been seen. Any new test metric is exploratory sensitivity analysis, NOT independent confirmatory validation.",
+    "External datasets have already been inspected/evaluated. They must not be reused as an untouched external test.",
+    "Disease labels, especially Iron Deficiency, lack expert verification."
+  ],
+  "reviewed_pair_status_counts": {
+    "VISUALLY_DIFFERENT_SAME_CAPTURE_NOT_EVIDENT": 32,
+    "UNCERTAIN_POSSIBLE_RELATED_CAPTURE": 8,
+    "CONFIRMED_NEAR_IDENTICAL_IMAGE": 2
+  },
+  "reviewed_2_confirmed_and_8_uncertain_across_split": 0,
+  "all_4254_original_candidates_still_cross_new_proxies": 1895,
+  "candidate_note": "Most cross-proxy hash candidates are not visually verified; hash similarity alone is not proof of duplicate.",
+  "base_manifest_sha256": "00ed9997e09b5dca871e9304a1932787591f0e14da2b0522cba5c638dd1665c1",
+  "model_architecture_prior_selection": "ResNet50V2 selected during earlier development; using it here is a post-hoc sensitivity study."
+}

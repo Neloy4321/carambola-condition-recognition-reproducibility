@@ -1,0 +1,18 @@
+{
+  "run_id": "carambola_captureproxy_resnet50v2_s42_20261117",
+  "seed": 42,
+  "architecture": "resnet50v2",
+  "source_manifest_sha256": "4f6f17ef1b98753541f34c9da1d6f640fc33c5e5c7905b42306705723c135fc1",
+  "head_epochs": 12,
+  "fine_epochs": 12,
+  "last_trainable_layers": 30,
+  "batch_size": 32,
+  "image_size": [
+    224,
+    224
+  ],
+  "image_preprocess": "raw [0,255] float; internal Rescaling(1/127.5,offset=-1)",
+  "augmentation": "RandomFlip,RandomRotation(0.05),RandomZoom(0.10),RandomContrast(0.10)",
+  "status": "EXPLORATORY_CAPTURE_PROXY_SENSITIVITY_NOT_INDEPENDENT_TEST",
+  "warning": "Some test classes comprise only one proxy group. No tree/orchard independence guaranteed."
+}

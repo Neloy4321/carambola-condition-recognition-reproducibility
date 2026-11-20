@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED_EXPLORATORY",
+  "selected_model": "resnet50v2_s42",
+  "total_images": 731,
+  "dataset_1_images": 393,
+  "dataset_2_images": 338,
+  "old_yellow_leaf_excluded": 68,
+  "six_class_predictions": true,
+  "partial_class_evaluation": true,
+  "source_independence_verified": false,
+  "expert_labels_verified": false,
+  "model_retrained": false
+}
