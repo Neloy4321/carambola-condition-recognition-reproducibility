@@ -1,0 +1,4 @@
+scenario,n,old_model_correct,group_model_correct,old_model_accuracy,group_model_accuracy,grouped_minus_old_percentage_points,paired_discordant_old_better,paired_discordant_grouped_better,mcnemar_exact_two_sided_p_DESCRIPTIVE
+Historical original-label reference,59,52,49,0.8813559322033898,0.8305084745762712,-5.0847457627118615,4,1,0.375
+Advisory four Stage-1 correction candidates applied,59,52,53,0.8813559322033898,0.8983050847457628,1.6949152542372947,2,3,1.0
+Four advisory corrections; three Stage-1 uncertain excluded,56,52,53,0.9285714285714286,0.9464285714285714,1.7857142857142794,2,3,1.0

@@ -1,0 +1,11 @@
+actual_label,predicted_label,n
+Iron Deficiency,Insect Pest,24
+Insect Pest,Healthy,15
+Iron Deficiency,Healthy,13
+Old,Iron Deficiency,8
+Insect Pest,Iron Deficiency,5
+Healthy,Iron Deficiency,4
+Old,Insect Pest,3
+Healthy,Insect Pest,1
+Iron Deficiency,Old,1
+Unhealthy Fruits,Healthy Fruits,1

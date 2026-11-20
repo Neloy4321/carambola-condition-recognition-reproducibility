@@ -1,0 +1,7 @@
+cohort,n,correct,accuracy
+Old original test (all),388,357,0.9201030927835051
+Grouped exploratory test (all),394,319,0.8096446700507615
+Intersection: old model,59,52,0.8813559322033898
+Intersection: grouped model,59,49,0.8305084745762712
+Old-test-only images: old model,329,305,0.9270516717325228
+Grouped-test-only images: grouped model,335,270,0.8059701492537313

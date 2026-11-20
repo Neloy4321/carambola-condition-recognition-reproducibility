@@ -1,0 +1,3 @@
+# Original Kaggle notebooks — controlled upload pending
+
+The research team retains the original Kaggle notebook bundle and an already prepared curated 93-file GitHub archive. The **historical notebooks have not yet been mirrored to this GitHub repository**. Do not treat this placeholder as source code, or infer that the archived models can be retrained with only public files. Before uploading notebooks, audit for OAuth credentials, Drive folder IDs, file paths to unpublished images, execution outputs and patient/individual-level data. The full corrected-label CNN notebook is planned but unexecuted.
