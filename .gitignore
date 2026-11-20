@@ -1,0 +1,20 @@
+# Raw source images and private research evidence must never be accidentally committed
+.env*
+*.pem
+*.key
+*kaggle.json
+*client_secret*.json
+private/
+PRIVATE/
+RESTRICTED*/
+raw_images/
+original_images/
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+*.pyc

@@ -1,0 +1,7 @@
+label,test,train,validation
+Old,64,292,66
+Healthy,68,316,69
+Healthy Fruits,66,310,67
+Unhealthy Fruits,62,302,65
+Insect Pest,71,312,67
+Iron Deficiency,57,275,54

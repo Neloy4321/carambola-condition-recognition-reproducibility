@@ -1,0 +1,6 @@
+model,parameters,checkpoint_MB,latency_ms_per_image_batch16,measured_on,preprocessing_included
+efficientnetb0_s42,4057257,27.684,17.334633218744955,"['/physical_device:GPU:0', '/physical_device:GPU:1']",False
+initial_cnn_s42,94022,1.137,0.9304870937540954,"['/physical_device:GPU:0', '/physical_device:GPU:1']",False
+mobilenetv2_s42,2265670,20.813,8.902763374997846,"['/physical_device:GPU:0', '/physical_device:GPU:1']",False
+mobilenetv3small_s42,942582,8.641,9.002110249994644,"['/physical_device:GPU:0', '/physical_device:GPU:1']",False
+resnet50v2_s42,23577094,200.772,12.587016343751145,"['/physical_device:GPU:0', '/physical_device:GPU:1']",False

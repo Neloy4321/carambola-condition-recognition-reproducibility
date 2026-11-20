@@ -1,0 +1,7 @@
+label,original_count,unique_count,redundant_exact_copies
+Old,428,422,6
+Healthy,453,453,0
+Healthy Fruits,443,443,0
+Unhealthy Fruits,433,429,4
+Insect Pest,467,450,17
+Iron Deficiency,420,386,34
